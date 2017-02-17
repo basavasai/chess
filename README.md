@@ -1,4 +1,6 @@
 # chess
 
-Note : Code will break for the corner last two rows mostly works at the center. Mostly i did not check the corner cases.
-Verified some cases and i see some cases fail like consider h or a corners for example 
+Note : Code will break for the corner last two rows. mostly works at the center. 
+Verified some cases and i see some cases fail. corners for example. 
+
+Error scenarios are not handled . But you will get the basic idea what i am trying to do 
