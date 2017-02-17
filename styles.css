@@ -1,0 +1,88 @@
+.container {
+    border: 1px solid gray;
+    width: 408px;
+    height: 408px;
+}
+
+.box {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+
+/*#traverse {*/
+    /*font-size: 20px;*/
+    /*width: 200px;*/
+    /*height: 50px;*/
+    /*padding: 5px;*/
+    /*border: 2px solid grey;*/
+    /*text-align: center;*/
+
+/*}*/
+
+.buttonContainer {
+    margin-top: 20px;
+
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.row1 div:nth-child(even), .row2 div:nth-child(odd),
+.row3 div:nth-child(even), .row4 div:nth-child(odd),
+.row5 div:nth-child(even), .row6 div:nth-child(odd),
+.row7 div:nth-child(even), .row8 div:nth-child(odd){
+    background-color: gray;
+}
+
+input, label {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[id="king"] {
+   margin-left: 24px;
+   width: 300px;
+   padding: 5px;
+}
+
+input[id="knight"] {
+    width: 300px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 15px;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#output {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
